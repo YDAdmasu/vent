@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: telegram-channel-bot
+    runtime: python
+    buildCommand: ""
+    startCommand: bash start.sh
+    envVars:
+      - key: BOT_TOKEN
+        value: your_telegram_bot_token
+      - key: CHANNEL_USERNAME
+        value: @your_channel
+      - key: ADMIN_USER_ID
+        value: your_user_id

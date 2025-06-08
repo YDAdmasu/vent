@@ -1,8 +1,8 @@
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, MessageHandler, CallbackQueryHandler, filters, ContextTypes
 
-BOT_TOKEN = '8063064268:AAEMlgbOclVaj0pOcxt2jzw2aa-uZq48fDE'
-CHANNEL_USERNAME = '@astu_vent'
+BOT_TOKEN = ''
+CHANNEL_USERNAME = ''
 ADMIN_USER_ID = 123456789  # <-- your Telegram user ID
 
 # Store messages temporarily
